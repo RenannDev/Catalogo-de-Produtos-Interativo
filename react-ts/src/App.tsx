@@ -16,7 +16,7 @@ const produto: Product = {
 function App() {
 
   return (
-    <div>
+    <div className="bg-cor-fundo min-h-screen" >
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4'>
        <ProductCard
         product={produto}
