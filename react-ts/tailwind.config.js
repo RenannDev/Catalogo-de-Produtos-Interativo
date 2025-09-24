@@ -11,6 +11,9 @@ module.exports = {
         'cor-elementos': '#dda15e',
         'cor-leve-texto': '#606c38',
       },
+      gridTemplateColumns: {
+        '2fr-1fr': '2fr 1fr',
+      },
     },
   },
   plugins: [],
